@@ -1,0 +1,19 @@
+#include <windows.h>
+#include "resource.h"
+
+IDI_RUNDLG  ICON  "res\\runti.ico"
+
+DLG_RUN DIALOGEX DISCARDABLE  0, 0, 227, 95
+STYLE DS_MODALFRAME | DS_SHELLFONT | DS_NOIDLEMSG | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RunTI"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    ICON            IDI_RUNDLG,IDD_ICON,7,11,21,20, SS_REALSIZECONTROL
+    LTEXT           "Type the name of a program and it will be run as TrustedInstaller.",
+                    IDD_PROMPT,36,11,182,18
+    LTEXT           "&Open:",IDD_RUNDLGOPENPROMPT,7,39,24,10
+    EDITTEXT        IDD_COMMAND,36,37,183,13,ES_AUTOHSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,62,70,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,116,70,50,14
+    PUSHBUTTON      "&Browse...",IDD_BROWSE,170,70,50,14
+END

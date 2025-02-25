@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RunTI", "RunTI.vcxproj", "{4738A7D2-30FD-4828-9A0E-2A18406385F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4738A7D2-30FD-4828-9A0E-2A18406385F5}.Debug|x64.ActiveCfg = Debug|x64
+		{4738A7D2-30FD-4828-9A0E-2A18406385F5}.Debug|x64.Build.0 = Debug|x64
+		{4738A7D2-30FD-4828-9A0E-2A18406385F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{4738A7D2-30FD-4828-9A0E-2A18406385F5}.Debug|x86.Build.0 = Debug|Win32
+		{4738A7D2-30FD-4828-9A0E-2A18406385F5}.Release|x64.ActiveCfg = Release|x64
+		{4738A7D2-30FD-4828-9A0E-2A18406385F5}.Release|x64.Build.0 = Release|x64
+		{4738A7D2-30FD-4828-9A0E-2A18406385F5}.Release|x86.ActiveCfg = Release|Win32
+		{4738A7D2-30FD-4828-9A0E-2A18406385F5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEFD2441-20BD-4045-8229-0879051D1597}
+	EndGlobalSection
+EndGlobal
